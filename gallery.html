@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="./images/logo.jfif" type="image/x-icon" />
+    <title>Gallery | AR Digital Print</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <link rel="stylesheet" href="gallery.css" />
+    <link rel="stylesheet" href="footer.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark custom-navbar"
+      data-aos="fade-down"
+    >
+      <div class="container">
+        <a class="navbar-brand logo" href="index.html"
+          >AR <span>Digital Print</span></a
+        >
+        <button
+          class="navbar-toggler border-0 shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+              <a href="contact.html" class="quote-btn"
+                >Get a Quote <i class="bi bi-arrow-up-right"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="gallery-hero">
+      <div class="hero-overlay"></div>
+      <div class="container position-relative">
+        <div class="hero-content">
+          <div class="small-heading" data-aos="fade-up" data-aos-delay="100">
+            OUR GALLERY
+          </div>
+          <h1 data-aos="fade-up" data-aos-delay="200">
+            Prints That <span>Speak for Themselves.</span>
+          </h1>
+          <p data-aos="fade-up" data-aos-delay="300">
+            A look at the colors, details and finishes we deliver on fabric.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery-section">
+      <div class="container">
+        <div
+          class="filters"
+          role="group"
+          aria-label="Filter gallery"
+          data-aos="fade-up"
+        >
+          <button class="filter-btn active" data-filter="all">All</button>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid">
+          <figure
+            class="g-item wide"
+            data-cat="digital"
+            data-aos="zoom-in"
+            data-aos-delay="0"
+          >
+            <img
+              src="./images/gallery1.jpg"
+              alt="Digital print on fabric"
+              loading="lazy"
+              onerror="this.remove()"
+            />
+            <figcaption>Digital Printing</figcaption>
+          </figure>
+          <figure
+            class="g-item"
+            data-cat="sublimation"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <img
+              src="./images/gallery2.jfif"
+              alt="Sublimation print"
+              loading="lazy"
+              onerror="this.remove()"
+            />
+            <figcaption>Sublimation</figcaption>
+          </figure>
+          <figure
+            class="g-item tall"
+            data-cat="digital"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <img
+              src="./images/gallery3.webp"
+              alt="Detailed fabric design"
+              loading="lazy"
+              onerror="this.remove()"
+            />
+            <figcaption>Digital Printing</figcaption>
+          </figure>
+          <figure
+            class="g-item"
+            data-cat="sublimation"
+            data-aos="zoom-in"
+            data-aos-delay="0"
+          >
+            <img
+              src="./images/gallery4.jfif"
+              alt="Vibrant sublimation colors"
+              loading="lazy"
+              onerror="this.remove()"
+            />
+            <figcaption>Sublimation</figcaption>
+          </figure>
+          <figure
+            class="g-item"
+            data-cat="digital"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <img
+              src="./images/gallery5.jfif"
+              alt="Printed pattern closeup"
+              loading="lazy"
+              onerror="this.remove()"
+            />
+            <figcaption>Digital Printing</figcaption>
+          </figure>
+          <figure
+            class="g-item wide"
+            data-cat="sublimation"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <img
+              src="./images/gallery8.webp"
+              alt="Sublimation fabric roll"
+              loading="lazy"
+              onerror="this.remove()"
+            />
+            <figcaption>Sublimation</figcaption>
+          </figure>
+          <figure
+            class="g-item"
+            data-cat="digital"
+            data-aos="zoom-in"
+            data-aos-delay="0"
+          >
+            <img
+              src="./images/gallery9.jpg"
+              alt="Digital print sample"
+              loading="lazy"
+              onerror="this.remove()"
+            />
+            <figcaption>Digital Printing</figcaption>
+          </figure>
+          <figure
+            class="g-item tall"
+            data-cat="sublimation"
+            data-aos="zoom-in"
+            data-aos-delay="100"
+          >
+            <img
+              src="./images/gallery10.jfif"
+              alt="Sublimation print sample"
+              loading="lazy"
+              onerror="this.remove()"
+            />
+            <figcaption>Sublimation</figcaption>
+          </figure>
+          <figure
+            class="g-item"
+            data-cat="digital"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+          >
+            <img
+              src="./images/gallery11.webp"
+              alt="Finished digital print"
+              loading="lazy"
+              onerror="this.remove()"
+            />
+            <figcaption>Digital Printing</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="container">
+        <div class="cta-box" data-aos="fade-up">
+          <div>
+            <h2>Like what you see?</h2>
+            <p>Send us your design and we'll reply with a quote.</p>
+          </div>
+          <a href="contact.html" class="primary-btn"
+            >Get a Quote <i class="bi bi-arrow-right"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SITE FOOTER -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5">
+            <a href="index.html" class="sf-logo"
+              >AR <span>- Digital Print</span></a
+            >
+            <p>
+              Premium digital and sublimation printing solutions designed to
+              bring your creative ideas to life.
+            </p>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h6>QUICK LINKS</h6>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h6>SERVICES</h6>
+            <a href="services.html">Digital Printing</a>
+            <a href="services.html">Sublimation Printing</a>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <h6>CONTACT</h6>
+            <p class="sf-contact">
+              <i class="bi bi-geo-alt"></i> Karachi, Pakistan
+            </p>
+            <p class="sf-contact">
+              <i class="bi bi-telephone"></i> +92 XXX XXXXXXX
+            </p>
+            <p class="sf-contact">
+              <i class="bi bi-envelope"></i> info@ardigitalprint.com
+            </p>
+          </div>
+        </div>
+        <div class="sf-bottom">
+          <p>© 2026 AR Digital Print. All Rights Reserved.</p>
+          <div class="sf-social">
+            <a href="#" aria-label="Instagram"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lb-btn lb-close" aria-label="Close">
+        <i class="bi bi-x-lg"></i>
+      </button>
+      <button class="lb-btn lb-prev" aria-label="Previous">
+        <i class="bi bi-chevron-left"></i>
+      </button>
+      <img id="lbImg" src="" alt="" />
+      <button class="lb-btn lb-next" aria-label="Next">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 700,
+        easing: "ease-out-cubic",
+        once: true,
+        offset: 40,
+        disable: () =>
+          window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+      });
+
+      const items = [...document.querySelectorAll(".g-item")];
+      const buttons = document.querySelectorAll(".filter-btn");
+
+      // Filter (AOS.refreshHard re-measures positions after tiles are hidden/shown)
+      buttons.forEach((btn) =>
+        btn.addEventListener("click", () => {
+          buttons.forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          const f = btn.dataset.filter;
+          items.forEach((el) =>
+            el.classList.toggle("hide", f !== "all" && el.dataset.cat !== f),
+          );
+          AOS.refreshHard();
+        }),
+      );
+
+      // Lightbox
+      const lb = document.getElementById("lightbox");
+      const lbImg = document.getElementById("lbImg");
+      let current = 0;
+      const visible = () =>
+        items.filter(
+          (el) => !el.classList.contains("hide") && el.querySelector("img"),
+        );
+      function show(i) {
+        const list = visible();
+        current = (i + list.length) % list.length;
+        const img = list[current].querySelector("img");
+        lbImg.src = img.src;
+        lbImg.alt = img.alt;
+      }
+      function open(el) {
+        const list = visible();
+        lb.classList.add("open");
+        lb.setAttribute("aria-hidden", "false");
+        show(list.indexOf(el));
+      }
+      function close() {
+        lb.classList.remove("open");
+        lb.setAttribute("aria-hidden", "true");
+      }
+      items.forEach((el) =>
+        el.addEventListener("click", () => el.querySelector("img") && open(el)),
+      );
+      lb.querySelector(".lb-close").onclick = close;
+      lb.querySelector(".lb-prev").onclick = () => show(current - 1);
+      lb.querySelector(".lb-next").onclick = () => show(current + 1);
+      lb.addEventListener("click", (e) => e.target === lb && close());
+      document.addEventListener("keydown", (e) => {
+        if (!lb.classList.contains("open")) return;
+        if (e.key === "Escape") close();
+        if (e.key === "ArrowLeft") show(current - 1);
+        if (e.key === "ArrowRight") show(current + 1);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+/* ===== footer.css : one footer for ALL pages =====
+   Every selector starts with .site-footer, so it cannot clash
+   with index/about/services/gallery/contact CSS. */
+
+.site-footer {
+  --sf-accent: #ff5b1f;
+  --sf-border: rgba(255, 255, 255, 0.1);
+  background: #0b0b0b;
+  padding: 70px 0 25px;
+  border-top: 1px solid var(--sf-border);
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  text-align: left;
+}
+
+.site-footer .sf-logo {
+  display: inline-block;
+  font-family: "Pacifico", cursive;
+  font-size: 23px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.site-footer .sf-logo span {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.site-footer p {
+  color: #777;
+  font-size: 13px;
+  line-height: 1.8;
+  max-width: 400px;
+  margin: 0;
+}
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 0 0 20px;
+}
+
+.site-footer a {
+  display: block;
+  color: #777;
+  font-size: 13px;
+  text-decoration: none;
+  margin: 0 0 10px;
+  transition: color 0.3s;
+}
+.site-footer a:hover {
+  color: var(--sf-accent);
+}
+
+.site-footer .sf-contact {
+  margin-bottom: 10px;
+}
+.site-footer .sf-contact i {
+  color: var(--sf-accent);
+  margin-right: 8px;
+}
+
+.site-footer .sf-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid var(--sf-border);
+}
+.site-footer .sf-bottom p {
+  max-width: none;
+  font-size: 12px;
+}
+.site-footer .sf-social {
+  display: flex;
+  gap: 15px;
+}
+.site-footer .sf-social a {
+  margin: 0;
+  font-size: 17px;
+}
+
+.site-footer a:focus-visible {
+  outline: 2px solid var(--sf-accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 576px) {
+  .site-footer {
+    padding-top: 55px;
+  }
+  .site-footer .sf-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+}
